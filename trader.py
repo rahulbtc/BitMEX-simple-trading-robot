@@ -28,3 +28,6 @@ class Trader():
             print("Something goes wrong!")
 
         return
+      
+        print (response)
+      

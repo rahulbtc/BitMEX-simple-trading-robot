@@ -1,11 +1,11 @@
 TEST_EXCHANGE=True
-API_KEY=""
-API_SECRET=""
+API_KEY= "ryJtdgCmz0P-_fjB5PadKqEc"
+API_SECRET= "4ED3zMDg4yadbjqxMzqYogEKn1STgtLO7mwrVkdWVZEuPUYA"
 
-AMOUNT_MONEY_TO_TRADE=100 #$
-LEVERAGE=5
+AMOUNT_MONEY_TO_TRADE=1000 #$
+LEVERAGE=10
 
-TIMEFRAME = '1h'
+TIMEFRAME = '5m'
 
 time_to_wait_new_trade = {'1m': 60,
                           '5m': 60*5,
