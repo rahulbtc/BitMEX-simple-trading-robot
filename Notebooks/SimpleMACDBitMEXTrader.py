@@ -70,5 +70,5 @@ client = bitmex.bitmex(test=True,
                        trader = Trader(client, strategy))
 while True:
   if round(time.time()) % time_to_wait_new_trade == 0:
-    trader.execute_trade()
-    time.sleep(1)
+      trader.execute_trade()
+      time.sleep(1)
